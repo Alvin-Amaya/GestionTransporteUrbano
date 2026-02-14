@@ -21,7 +21,27 @@ namespace GestionTransporteUrbano
 
         public void recorrerKilometros(double kilometros)
         {
-            kilometrosRecorridos += kilometros;
+            this.kilometrosRecorridos += kilometros;
+        }
+
+        public double KilometrosRecorridos
+        {
+            get { return this.kilometrosRecorridos; }
+        }
+
+        public string Placa
+        {
+            get { return this.placa; }
+        }
+
+        public int Capacidad
+        {
+            get { return this.capacidad; }
+        }
+
+        public double VelocidadMaxima
+        {
+            get { return this.velocidadMaxima; }
         }
 
         public abstract void calcularCostoViaje();
