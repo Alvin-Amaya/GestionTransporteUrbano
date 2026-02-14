@@ -21,11 +21,11 @@ namespace GestionTransporteUrbano
 
         public override void mostrarInformacion()
         {
-            Console.WriteLine($"Bus Urbano - Placa: {this.Placa}" +
-                $"Capacidad: {this.Capacidad}" +
-                $"Velocidad Máxima: {this.VelocidadMaxima} km/h" +
-                $"Kilómetros Recorridos: {this.KilometrosRecorridos} km" +
-                $"Tarifa por Km: {this.tarifaPorKm}");
+            Console.WriteLine($"\nBus Urbano - Placa: {this.Placa}" +
+                $"\nCapacidad: {this.Capacidad}" +
+                $"\nVelocidad Máxima: {this.VelocidadMaxima} km/h" +
+                $"\nKilómetros Recorridos: {this.KilometrosRecorridos} km" +
+                $"\nTarifa por Km: {this.tarifaPorKm}");
         }
     }
 }

@@ -18,11 +18,11 @@ namespace GestionTransporteUrbano
         }
         public override void mostrarInformacion()
         {
-            Console.WriteLine($"Bicicleta Eléctrica - Placa: {this.Placa}" +
-                $"Capacidad: {this.Capacidad}" +
-                $"Velocidad Máxima: {this.VelocidadMaxima} km/h" +
-                $"Kilómetros Recorridos: {this.KilometrosRecorridos} km" +
-                $"Costo de energia por Km: {this.costoEnergiaPorKm}");
+            Console.WriteLine($"\nBicicleta Eléctrica - Placa: {this.Placa}" +
+                $"\nCapacidad: {this.Capacidad}" +
+                $"\nVelocidad Máxima: {this.VelocidadMaxima} km/h" +
+                $"\nKilómetros Recorridos: {this.KilometrosRecorridos} km" +
+                $"\nCosto de energia por Km: {this.costoEnergiaPorKm}");
         }
     }
 }

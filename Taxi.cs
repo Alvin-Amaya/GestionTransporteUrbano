@@ -20,12 +20,12 @@ namespace GestionTransporteUrbano
         }
         public override void mostrarInformacion()
         {
-            Console.WriteLine($"Taxi - Placa: {this.Placa}" +
-                $"Capacidad: {this.Capacidad}" +
-                $"Velocidad Máxima: {this.VelocidadMaxima} km/h" +
-                $"Kilómetros Recorridos: {this.KilometrosRecorridos} km" +
-                $"Tarifa Base: {this.tarifaBase}" +
-                $"Tarifa por Km: {this.tarifaPorKm}");
+            Console.WriteLine($"\nTaxi - Placa: {this.Placa}" +
+                $"\nCapacidad: {this.Capacidad}" +
+                $"\nVelocidad Máxima: {this.VelocidadMaxima} km/h" +
+                $"\nKilómetros Recorridos: {this.KilometrosRecorridos} km" +
+                $"\nTarifa Base: {this.tarifaBase}" +
+                $"\nTarifa por Km: {this.tarifaPorKm}");
         }
     }
 }
